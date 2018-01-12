@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, Catchcat!</string>
+    <string name="app_name">CatchCat</string>
+    <string name="retry">Retry</string>
+    <string name="next">Next</string>
+</resources>

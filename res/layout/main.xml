@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+<GridView xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:id="@+id/gridview"
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+    android:columnWidth="30dp"
+    android:numColumns="10"
+    android:verticalSpacing="0dp"
+    android:horizontalSpacing="0dp"
+    android:gravity="center"
+    android:stretchMode="columnWidth"/>
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:orientation="horizontal"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_below="@id/gridview"
+		android:verticalSpacing="0dp"
+        android:horizontalSpacing="0dp">
+		<Button android:id="@+id/retry" 
+	  		android:text="@string/retry"
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content" 
+			android:paddingTop="2dp"
+			android:paddingLeft="15dp"
+			android:paddingRight="15dp"
+			android:paddingBottom="6dp"
+			android:layout_marginLeft="50dp"
+			android:layout_weight="1"
+			android:verticalSpacing="0dp"
+            android:horizontalSpacing="0dp"/>
+		<Button android:id="@+id/next" 
+	  		android:text="@string/next"
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content" 
+			android:paddingTop="2dp"
+			android:paddingLeft="15dp"
+			android:paddingRight="15dp"
+			android:paddingBottom="6dp"
+			android:layout_marginLeft="100dp"
+			android:layout_weight="1"
+			android:verticalSpacing="0dp"
+            android:horizontalSpacing="0dp"/>
+	</LinearLayout>
+</RelativeLayout>
